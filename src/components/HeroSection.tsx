@@ -23,9 +23,6 @@ const HeroSection = () => {
             <a href="/booking" className="inline-block px-8 py-3 bg-white text-earth rounded-full hover:bg-white/90 transition-colors">
               Book a Journey
             </a>
-            <button className="px-8 py-3 bg-transparent border-2 border-white text-white rounded-full hover:bg-white/10 transition-colors">
-              Learn More
-            </button>
           </div>
         </div>
       </div>
