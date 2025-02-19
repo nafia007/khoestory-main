@@ -3,4 +3,4 @@
 /_next/data/* /_next/data/:splat 200
 /*.html$ /index.html 200
 /*/ /index.html 200
-/* /index.html 200
+/*    /index.html  200

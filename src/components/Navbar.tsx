@@ -41,10 +41,13 @@ const Navbar = () => {
             <a href="#herbs" className="text-earth/80 hover:text-earth transition-colors">
               Herbs
             </a>
-            <a href="/about" className="text-earth/80 hover:text-earth transition-colors">
+            <a href="#about" className="text-earth/80 hover:text-earth transition-colors">
               About
             </a>
-            <a href="/documentaries" className="text-earth/80 hover:text-earth transition-colors">
+            <a href="#booking" className="text-earth/80 hover:text-earth transition-colors">
+              Book your journey
+            </a>
+            <a href="#documentary-series" className="text-earth/80 hover:text-earth transition-colors">
               Documentary Series
             </a>
             <a href="https://holocenefilmscontact.uwu.ai/" target="_blank" rel="noopener noreferrer" className="ml-2 px-6 py-2 bg-earth text-white rounded-full hover:bg-earth/90 transition-colors">
@@ -84,13 +87,19 @@ const Navbar = () => {
                 Herbs
               </a>
               <a
-                href="/about"
+                href="#about"
                 className="block text-earth/80 hover:text-earth transition-colors"
               >
                 About
               </a>
               <a
-                href="/documentaries"
+                href="#booking"
+                className="block text-earth/80 hover:text-earth transition-colors"
+              >
+                Book your journey
+              </a>
+              <a
+                href="#documentary-series"
                 className="block text-earth/80 hover:text-earth transition-colors"
               >
                 Documentary Series
