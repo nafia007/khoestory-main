@@ -68,3 +68,4 @@ Simply open [Lovable](https://lovable.dev/projects/0381c780-8eb8-4e44-a03b-962c3
 
 We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
 # khoestory-main
+# khoestory-main
