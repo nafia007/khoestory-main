@@ -19,6 +19,18 @@ const herbs = [
     scientificName: "Agathosma betulina",
     uses: "Urinary health, anti-inflammatory, traditional medicine",
     image: "https://1k002xq9d0.ufs.sh/f/1NTnhDMDLmwfoqgNng7dy8fZhLI7rMm1Sg6snGQAjuFlDNK2"
+  },
+  {
+    name: "Cancerbush",
+    scientificName: "Sutherlandia frutescens",
+    uses: "Immune support, stress relief, traditional medicine",
+    image: "https://1k002xq9d0.ufs.sh/f/1NTnhDMDLmwfT1W6QRrsMRNW4F2wYjxBTpcyPALUQgk8oJ6u"
+  },
+  {
+    name: "Matunga/flaming lips",
+    scientificName: "Leonotis leonurus",
+    uses: "Cough, cold, fever, headaches",
+    image: "https://1k002xq9d0.ufs.sh/f/1NTnhDMDLmwfKfQQn6RR1dtuQDSgUfXIlsarAe6LcK8i0FxH"
   }
 ];
 
