@@ -19,11 +19,6 @@ const HeroSection = () => {
           <p className="text-xl text-white/90 mb-8 leading-relaxed animate-fade-in" style={{ animationDelay: "0.4s" }}>
             Discover the rich heritage and untold stories of the Khoe and San people through our documentary series and healing traditions.
           </p>
-          <div className="space-x-4 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-            <a href="/booking" className="inline-block px-8 py-3 bg-white text-earth rounded-full hover:bg-white/90 transition-colors">
-              Book a Journey
-            </a>
-          </div>
         </div>
       </div>
     </section>
