@@ -28,7 +28,7 @@ const herbs = [
   },
   {
     name: "Matunga/flaming lips",
-    scientificName: "Leonotis leonurus",
+    scientificName: "",
     uses: "Cough, cold, fever, headaches",
     image: "https://1k002xq9d0.ufs.sh/f/1NTnhDMDLmwfKfQQn6RR1dtuQDSgUfXIlsarAe6LcK8i0FxH"
   }

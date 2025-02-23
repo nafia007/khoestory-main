@@ -4,17 +4,17 @@ import { Mountain, MapPin } from "lucide-react";
 const sites = [
   {
     title: "Table Mountain",
-    description: "A sacred place of healing and connection with ancestors",
+    description: "A sacred place of healing and connection with ancestors Table Mountain, known as Hoerikwaggo (Mountain in the Sea) to the indigenous Khoi people, has been a sacred gathering place for traditional medicine collection for thousands of years. The mountain's diverse microclimates create unique habitats for medicinal plants across different elevations and aspects.",
     image: "https://1k002xq9d0.ufs.sh/f/1NTnhDMDLmwf4Hary6mWfyOlsATBp3Q7nV6KDNaz8v9tqhUi",
   },
   {
     title: "Newlands Forest",
-    description: "Ancient ceremonial grounds for spiritual practices",
+    description: "Ancient ceremonial grounds for spiritual practices Newlands Forest holds deep historical significance as part of Cape Town's original indigenous forests. Once a major water source powering colonial-era breweries and mills, this area has been a traditional medicine collection site for centuries, first by the indigenous Khoi-San peoples and later by Cape Malay healers.",
     image: "https://1k002xq9d0.ufs.sh/f/1NTnhDMDLmwfodAhUQ7dy8fZhLI7rMm1Sg6snGQAjuFlDNK2",
   },
   {
     title: "Peer's Cave",
-    description: "Where land meets ocean in perfect harmony",
+    description: "Where land meets ocean in perfect harmony Peers Cave, located in the Silvermine Nature Reserve above Noordhoek, is a significant archaeological and natural heritage site. The area around the cave is rich in Cape Floristic Region vegetation, which includes many traditional medicinal plants used by indigenous peoples.",
     image: "https://1k002xq9d0.ufs.sh/f/1NTnhDMDLmwfX7RRCy2gvmYC4w9rqzQf5iTFetZ8NEuJHWpM",
   },
 ];
