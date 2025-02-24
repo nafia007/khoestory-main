@@ -1,5 +1,4 @@
-
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
@@ -44,8 +43,8 @@ const Navbar = () => {
             <a href="#about" className="text-earth/80 hover:text-earth transition-colors">
               About
             </a>
-            <a href="#booking" className="text-earth/80 hover:text-earth transition-colors">
-              Book your journey
+            <a href="https://www.quicket.co.za/events/301282-cave-of-ascension-peers-cave-walk/#/" target="_blank" rel="noopener noreferrer" className="text-earth/80 hover:text-earth transition-colors">
+              Book Your Ticket
             </a>
             <a href="#documentary-series" className="text-earth/80 hover:text-earth transition-colors">
               Documentary Series
@@ -68,53 +67,55 @@ const Navbar = () => {
               )}
             </button>
           </div>
-        </div>
 
-        {/* Mobile menu */}
-        {isOpen && (
-          <div className="md:hidden absolute top-20 left-0 w-full bg-white/95 backdrop-blur-md shadow-lg animate-fade-in">
-            <div className="px-4 pt-2 pb-4 space-y-4">
-              <a
-                href="#sacred-sites"
-                className="block text-earth/80 hover:text-earth transition-colors"
-              >
-                Sacred Sites
-              </a>
-              <a
-                href="#herbs"
-                className="block text-earth/80 hover:text-earth transition-colors"
-              >
-                Herbs
-              </a>
-              <a
-                href="#about"
-                className="block text-earth/80 hover:text-earth transition-colors"
-              >
-                About
-              </a>
-              <a
-                href="#booking"
-                className="block text-earth/80 hover:text-earth transition-colors"
-              >
-                Book your journey
-              </a>
-              <a
-                href="#documentary-series"
-                className="block text-earth/80 hover:text-earth transition-colors"
-              >
-                Documentary Series
-              </a>
-              <a
-                href="https://holocenefilmscontact.uwu.ai/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full px-6 py-2 bg-earth text-white rounded-full hover:bg-earth/90 transition-colors"
-              >
-                Contact
-              </a>
+          {/* Mobile menu */}
+          {isOpen && (
+            <div className="md:hidden absolute top-20 left-0 w-full bg-white/95 backdrop-blur-md shadow-lg animate-fade-in">
+              <div className="px-4 pt-2 pb-4 space-y-4">
+                <a
+                  href="#sacred-sites"
+                  className="block text-earth/80 hover:text-earth transition-colors"
+                >
+                  Sacred Sites
+                </a>
+                <a
+                  href="#herbs"
+                  className="block text-earth/80 hover:text-earth transition-colors"
+                >
+                  Herbs
+                </a>
+                <a
+                  href="#about"
+                  className="block text-earth/80 hover:text-earth transition-colors"
+                >
+                  About
+                </a>
+                <a
+                  href="https://www.quicket.co.za/events/301282-cave-of-ascension-peers-cave-walk/#/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block text-earth/80 hover:text-earth transition-colors"
+                >
+                  Book Your Ticket
+                </a>
+                <a
+                  href="#documentary-series"
+                  className="block text-earth/80 hover:text-earth transition-colors"
+                >
+                  Documentary Series
+                </a>
+                <a
+                  href="https://holocenefilmscontact.uwu.ai/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full px-6 py-2 bg-earth text-white rounded-full hover:bg-earth/90 transition-colors"
+                >
+                  Contact
+                </a>
+              </div>
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </nav>
   );

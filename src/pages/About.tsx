@@ -1,5 +1,5 @@
+import React from 'react';
 import { ChevronLeft } from "lucide-react";
-
 
 const About = () => {
   return (
